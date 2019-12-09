@@ -1,0 +1,1 @@
+display a map box api on the web page
