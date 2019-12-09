@@ -1,15 +1,12 @@
+// <!--   source: https://stackoverflow.com/questions/15447889/display-html-form-values-in-same-page-after-submit   -->
+// debugger;
 document.addEventListener("DOMContentLoaded", () => {
-    let form = document.getElementById("formOne");
     // debugger;
-
-    form.addEventListener("submit", () => {
+    let submit = document.getElementById("submit");
+    submit.addEventListener("click", () => {
+        let userInput = document.getElementById("user_input").value;
+        let x = parseInt(userInput);
+        //
         debugger;
-        let formData = new FormData(form);
-        console.log(formData.toString());
-        debugger;
-
     });
 });
-
-
-

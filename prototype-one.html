@@ -1,25 +1,23 @@
+<!--   source: https://stackoverflow.com/questions/15447889/display-html-form-values-in-same-page-after-submit   -->
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html >
+<head lang="en" >
     <meta charset="UTF-8">
-    <title>prototype 1</title>
+<title>prototype 1</title>
+
 </head>
 <body>
 
-<script src="js/prototype-1.js"></script>
+<form>
+    <label for = "user_input"><b>Enter a Message</b></label>
+    <input type="text" name="message" id="user_input">
+</form>
 
-<div>
-    <form id="formOne">
-    <label for="textInput">Text Input</label>
-    <input type="text" id="textInput">
-    <input type="submit" value="Submit" id="submitButton">
-    </form>
-</div>
+<input type="submit" id="submit"><br/>
+<label>Your input: </label>
 
-
-
-
-
-
+<script src = "js/prototype-1.js"></script>
+<p><span id='display'></span></p>
 </body>
 </html>
